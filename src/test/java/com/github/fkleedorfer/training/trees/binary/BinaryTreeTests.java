@@ -17,5 +17,9 @@ public class BinaryTreeTests {
         Assertions.assertEquals(7,tree.size());
         Assertions.assertEquals(2, tree.min());
         Assertions.assertEquals(11, tree.max());
+        Assertions.assertTrue(tree.contains(2));
+        Assertions.assertTrue(tree.contains(10));
+        Assertions.assertFalse(tree.contains(1));
+        Assertions.assertFalse(tree.contains(20));
     }
 }

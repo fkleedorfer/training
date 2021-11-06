@@ -50,4 +50,9 @@ public class BinaryTree<T extends Comparable<T>> {
         //Todo implement
         throw new UnsupportedOperationException("TODO implement!");
     }
+
+    public boolean contains(T item){
+        //Todo implement
+        throw new UnsupportedOperationException("TODO implement!");
+    }
 }
